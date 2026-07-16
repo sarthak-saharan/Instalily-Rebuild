@@ -28,7 +28,7 @@ InstaLILY's site does something genuinely hard well, it explains a complex enter
 ## How I Built It
 - **Research:** I studied InstaLILY's product, audience, and site structure, an AI Forward Deployed Engineer built for industrial distribution, field service, logistics, healthcare ops, and construction.
 - **Design extraction:** I pulled the real design tokens off the live site through DOM inspection instead of guessing: IBM Plex Sans for body copy, DM Mono for the uppercase labels and buttons, the exact black, white, and cream section palette, and the #2e6b45 green accent.
-- **Stack:** vanilla HTML, CSS, and JavaScript in one file, no dependencies, runs anywhere.
+- **Stack:** vanilla HTML, CSS, and JavaScript split across three plain files, no build step, no dependencies, runs anywhere.
 - **Fidelity:** I matched the pill-shaped buttons, the alternating paper and dark sections, and the tight letter-spacing on the headings. Then I grounded the ROI math in InstaLILY's own published benchmarks instead of inventing numbers. An early version of the calculator was quoting a distributor $234,000 a month in savings before I caught the bug and fixed the formula.
 
 ## Run It Locally
